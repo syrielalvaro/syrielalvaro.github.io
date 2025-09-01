@@ -1,0 +1,26 @@
+.background{
+	background-image: url("images/Background.png");
+	background-color: gray; /* A CHANGER POUR HORS-CHAMP SYMPA */
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.name{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+
+}
+.bann{
+	color: white;
+	text-align: center;
+	list-style-type : none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: lightsalmon;
+}
