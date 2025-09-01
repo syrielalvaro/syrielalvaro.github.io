@@ -1,5 +1,5 @@
 .background{
-	background-image: url("Background.png");
+	background-image: url("images/Background.png");
 	background-color: gray; /* A CHANGER POUR HORS-CHAMP SYMPA */
 	background-position: center;
 	background-size: cover;
