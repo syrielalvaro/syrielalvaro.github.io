@@ -1,22 +1,29 @@
 .background{
 	background-image: url("images/Background.png");
-	background-color: gray; /* A CHANGER POUR HORS-CHAMP SYMPA */
+	background-color: lightsalmon;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
 
 }
 .name{
-	text-align: center;
 	color: white;
 	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
 
 }
-.bann{
-	color: white;
-	text-align: center;
-	font-size: 30px;
-	list-style-type : none;
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.box{
+	font-size: 40px;
+	list-style-type: none;
 }
 a{
 	color: white;
@@ -24,4 +31,22 @@ a{
 }
 a:hover{
 	color: lightsalmon;
+}
+strong{
+	font-weight:normal;
+}
+@media screen and (max-width: 800px) {
+	.container{
+		display: flex;
+		flex-direction: column;
+
+	}
+}
+@media screen and (min-width: 1600px) {
+	.name{
+		font-size: 80px;
+	}
+	.box{
+		font-size: 60px;
+	}
 }
