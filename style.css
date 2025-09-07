@@ -1,19 +1,28 @@
 html{
 	background-color: whitesmoke;
-	color: black;
+	color: #777777;
+	font-family: futura-pt, sans-serif;
+	font-weight:400;
+	font-style:normal;
+	font-stretch:normal;
+	font-display:auto;
 }
 a{
-	color: black;
+	color: #888888;
 	text-decoration: none;
 }
 a:hover{
 	color: lightsalmon;
 }
-strong, h1{
-	font-weight:normal;
-}
 ul{
 	padding-left: 0px;
+}
+strong{
+	font-size: 14px;
+	font-weight:600;
+	font-style:normal;
+	font-stretch:normal;
+	font-display:auto;
 }
 .background{
 	display: flex;
@@ -34,18 +43,19 @@ ul{
 	background-color: whitesmoke;
 	text-align: center;
 	margin: auto;
-	padding: 60px;
+	padding: 35px 90px 55px 90px;
 	max-height: 250px;
 	max-width: 600px;
 }
 .biography{
-	font-size: 16px;
-	color: lightsalmon;
+	font-size: 18px;
+	margin-bottom: 0px;
+	color: darksalmon;
 }
 .myName{
-	font-size: 55px;
+	font-size: 50px;
 	margin-top: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 .socialMedia{
 	display: flex;
@@ -55,7 +65,11 @@ ul{
 	gap: 35px;
 }
 .social{
-	font-size: 16px;
+	font-size: 14px;
+	font-weight:600;
+	font-style:normal;
+	font-stretch:normal;
+	font-display:auto;
 	list-style-type: none;
 }
 @media screen and (max-width: 800px) {
